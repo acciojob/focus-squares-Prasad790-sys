@@ -5,7 +5,7 @@ const squares = document.querySelectorAll('.square');
 function changeColorOnHover(event) {
     squares.forEach(square => {
         if (square !== event.target) {
-            square.style.backgroundColor = '#6F4E37'; // Coffee color
+            square.style.backgroundColor = 'rgb(111, 78, 55)'; // Coffee color
         }
     });
 }
@@ -13,7 +13,7 @@ function changeColorOnHover(event) {
 // Function to reset colors when not hovering
 function resetColor() {
     squares.forEach(square => {
-        square.style.backgroundColor = '#E6E6FA'; // Lavender color
+        square.style.backgroundColor = 'rgb(230, 230, 250)'; // Lavender color
     });
 }
 
